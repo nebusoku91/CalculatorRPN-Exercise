@@ -8,7 +8,6 @@
 
 using CalculatorRPN_Exercise.Interfaces;
 using CalculatorRPN_Exercise.Services;
-using System;
 
 namespace CalculatorRPN_Exercise.UI
 {
@@ -54,7 +53,6 @@ namespace CalculatorRPN_Exercise.UI
             {
                 Console.WriteLine("Error");
             }
-
         }
 
         public string ReadInput()

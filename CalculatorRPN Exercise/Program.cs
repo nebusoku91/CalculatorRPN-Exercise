@@ -3,7 +3,7 @@ using CalculatorRPN_Exercise.Data;
 using CalculatorRPN_Exercise.Interfaces;
 using CalculatorRPN_Exercise.UI;
 
-namespace CalculatorRPN
+namespace RPN_Calculator
 {
     class Program
     {
@@ -15,5 +15,4 @@ namespace CalculatorRPN
             calculatorController.Run();
         }
     }
-
 }
