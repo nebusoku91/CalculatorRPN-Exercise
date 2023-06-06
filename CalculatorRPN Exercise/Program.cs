@@ -10,8 +10,8 @@ namespace CalculatorRPN
         static void Main(string[] args)
         {
             INumberStack stack = new NumberStack(new double[1000], 0);
-            UserInterface consoleIO = new UserInterface(stack);
-            CalculatorController calculatorController = new CalculatorController(stack, consoleIO);
+            UserInterface userInterface = new UserInterface(stack);
+            CalculatorController calculatorController = new CalculatorController(stack, userInterface);
             calculatorController.Run();
         }
     }
